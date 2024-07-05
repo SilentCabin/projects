@@ -69,14 +69,21 @@ body {
 nav ul{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
-ul li{
+nav li{
     border: 2px solid hsl(210deg 8% 50%);
     border-radius: 12px;
     padding: 12px;
     list-style: none;
+
+    
 }
 li a{
     text-decoration: none;
     color: hsl(0deg 0% 100%);
+}
+
+.pushright {
+    margin-left: auto;
 }
