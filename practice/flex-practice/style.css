@@ -49,7 +49,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: hsl(210deg 15% 20%);
-    border: 2px solid hsl(210deg 8% 50%);;
+    border: 2px solid hsl(210deg 8% 50%);
     border-radius: 5px;
 
 }
@@ -64,4 +64,19 @@ body {
     flex-shrink: 1;
     border-radius: 90px;
 
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    border: 2px solid hsl(210deg 8% 50%);
+    border-radius: 12px;
+    padding: 12px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: hsl(0deg 0% 100%);
 }
