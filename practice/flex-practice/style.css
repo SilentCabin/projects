@@ -73,8 +73,8 @@ nav ul{
 }
 nav li{
     border: 2px solid hsl(210deg 8% 50%);
-    border-radius: 12px;
-    padding: 12px;
+    border-radius: 5px;
+    padding: 6px;
     list-style: none;
 
     
@@ -86,4 +86,36 @@ li a{
 
 .pushright {
     margin-left: auto;
+}
+
+.cards {
+    background-color: hsl(210deg 15% 20%);
+    border: 1px solid hsl(210deg 8% 50%);
+    border-radius: 20px 0px 20px 0px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    gap : 50px;    
+}
+
+.card {
+    background-color: hsla(210, 3%, 16%, 0.596);
+    border: 1px solid hsl(210deg 8% 50%);
+    border-radius: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.card .content {
+    flex: 1 1 auto;
+}
+
+.card footer{
+    background-color: hsla(0, 0%, 2%, 0.596);
+    text-align: center;
+    height: 50px;
+    border: 1px solid hsl(210deg 8% 50%);
+    border-radius: 20px 0px 20px 0px;
 }
