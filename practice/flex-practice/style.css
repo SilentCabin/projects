@@ -95,7 +95,7 @@ li a{
     height: 300px;
     display: flex;
     justify-content: space-evenly;
-    gap : 50px;    
+    gap : 30px;
 }
 
 .card {
