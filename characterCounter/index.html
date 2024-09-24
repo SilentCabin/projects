@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h2>Real-Time Character Counter</h2>
+        <textarea  id="textarea"class="textarea"
+        placeholder="Please Enter Text Here..." maxlength="150"></textarea>
+        <div class="countercontainer">
+            <!-- try to think of more things to count and add in js -->
+            <p>Total Characters:
+                <span class="total-counter" id="total-counter"></span>
+            </p>
+            <p>Remaining :
+                <span class="remaining-counter" id="remaining-counter"></span>
+            </p>
+        </div>
+        <div class="specialcontainer">
+            <p>Special Characters:
+                <span class="special-counter" id="special-counter">0</span>
+            </p>
+            <p> Numbers :
+                <span class="number-counter" id="number-counter">0</span>
+            </p>
+            
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
